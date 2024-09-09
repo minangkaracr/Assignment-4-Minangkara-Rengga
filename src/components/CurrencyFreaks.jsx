@@ -55,6 +55,12 @@ export default function CurrencyFreaks(){
                     <div>
                         <small>*based currency is USD</small>
                     </div>
+                    <div>
+                        <small>*how to read this:</small>
+                    </div>
+                    <div>
+                        <small>**Example: 1 USD = Rp{Number(dataCurrency.IDR).toFixed(4)}</small>
+                    </div>
                 </>
                 )}    
             </div>
